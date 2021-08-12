@@ -617,7 +617,8 @@ echo "$yt\n";
 }else if($menu == 7){
 system("clear");
 system("rm Multiapp.php");
-system("git clone test");
+system("git clone https://github.com/estrosebas/multirepo");
+system("php multiapp.php")
  sleep(2);
  
  $c=readline("[+]back to menu[y/n]: ");
